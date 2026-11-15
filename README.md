@@ -27,9 +27,3 @@ Git y Docker Desktop en ejecución.
 
 ## Estrategia de ramas
 `main` estable; trabajo en `feature/*` y fusión mediante Pull Request.
-
-## Evidencias
-Las capturas de ejecución se incluyen en el informe técnico.
-
-## Evidencias
-Las capturas de ejecución se incluyen en el informe técnico.
