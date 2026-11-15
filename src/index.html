@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reserva de Horas Médicas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Clínica Salud Demo</h1>
+    <p>Reserva de horas médicas en línea</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Estado del servicio</h2>
+      <p><span class="estado">● Operativo</span> (entorno local de demostración)</p>
+    </section>
+
+    <section class="card">
+      <h2>Datos de atención</h2>
+      <ul>
+        <li>Horario: lunes a viernes, 08:00 a 18:00</li>
+        <li>Especialidades: Medicina general, Pediatría, Cardiología</li>
+        <li>Teléfono ficticio: 000 000 000</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Formulario de reserva</h2>
+      <form onsubmit="event.preventDefault(); alert('Simulación: no se envían datos.');">
+        <label for="nombre">Nombre (ficticio)</label>
+        <input id="nombre" type="text" placeholder="Paciente de ejemplo" required>
+
+        <label for="esp">Especialidad</label>
+        <select id="esp">
+          <option>Medicina general</option>
+          <option>Pediatría</option>
+          <option>Cardiología</option>
+        </select>
+
+        <label for="fecha">Fecha</label>
+        <input id="fecha" type="date" required>
+
+        <label for="hora">Hora</label>
+        <input id="hora" type="time" required>
+
+        <button type="submit">Reservar hora</button>
+      </form>
+      <p class="aviso">No ingreses datos personales reales: es una simulación estática.</p>
+    </section>
+  </main>
+
+  <footer>Proyecto académico DevOps · IACC 2026</footer>
+</body>
+</html>
