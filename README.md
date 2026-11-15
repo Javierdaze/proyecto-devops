@@ -30,3 +30,6 @@ Git y Docker Desktop en ejecución.
 
 ## Evidencias
 Las capturas de ejecución se incluyen en el informe técnico.
+
+## Evidencias
+Las capturas de ejecución se incluyen en el informe técnico.
